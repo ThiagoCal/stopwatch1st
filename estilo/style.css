@@ -1,0 +1,48 @@
+body {
+    background: #DB1F48 ;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+    height: 100%;
+}
+
+.watch {
+    background-color:#004369;
+    width: 600px;
+    margin: 40px;
+    color: #e5ddc8;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 10px 10px;
+}
+
+h1, h2 {
+    font-family: 'Roboto',sans-serif ;
+    color: #e5ddc8 ;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+#minutes,#seconds, #tens, #double{
+    font-size: 2em;
+    color:   #e5ddc8  ;
+}
+
+button {
+    border-radius: 2px 2px;
+    background-color:  #01949a;
+    border: solid 1px black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    transition: all 0.5s ease-in-out;
+    width: 120px;
+    margin: 15px;
+}
+
+button:hover{
+    transition: all 0.5s ease-in-out;
+    background:#DB1F48;
+    border: solid 1px white;
+    color: #e5ddc8;
+}
